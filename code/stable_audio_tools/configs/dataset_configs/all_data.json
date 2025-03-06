@@ -1,0 +1,21 @@
+{
+    "dataset_type": "audio_dir",
+    "datasets": [
+        {
+            "id": "audiocaps",
+            "path": "ANONYMIZED",
+            "custom_metadata_module": "ANONYMIZED"
+        },
+        {
+            "id": "vgg",
+            "path": "ANONYMIZED",
+            "custom_metadata_module": "ANONYMIZED"
+        },
+        {
+            "id": "audioset_sl",
+            "path": "ANONYMIZED",
+            "custom_metadata_module": "ANONYMIZED"
+        }
+    ],
+    "random_crop": true
+}
