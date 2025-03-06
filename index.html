@@ -56,19 +56,19 @@
 			<!-- <div class="container">
 				<div class="row justify-content-md-center">
 					<div class="col-md-auto">
-						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Author_1<span class="sup">*</span></a></span>
+						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Author<span class="sup">*</span></a></span>
 					</div>
 					<div class="col-md-auto">
-						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Author_2<span class="sup">*</span></a></span>
+						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Author<span class="sup">*</span></a></span>
 					</div>
 					<div class="col-md-auto">
-						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Author_3</a></span>
+						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Author</a></span>
 					</div>
 					<div class="col-md-auto">
-						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Author_4</a></span>
+						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer"Author</a></span>
 					</div>
 					<div class="col-md-auto">
-						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Author_5</a></span>
+						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Author</a></span>
 					</div>
 				</div>
 			</div> -->
@@ -81,10 +81,10 @@
 						<span><a class="btn btn-outline-primary" href='resources/paper.pdf' role="button" style="font-size: 24px;"><i class="fas fa-file-pdf"></i> Paper</a></span>
 					</div>
 					<div class="col-md-auto">
-						<span><a class="btn btn-outline-primary" href='resources/supp.pdf' role="button" style="font-size: 24px;"><i class="fas fa-file-pdf"></i> Supplementary</a></span>
+						<span><a class="btn btn-outline-primary" href='resources/paper.pdf' role="button" style="font-size: 24px;"><i class="fas fa-file-pdf"></i> Supplementary</a></span>
 					</div>
 					<div class="col-md-auto">
-						<span><a class="btn btn-outline-primary" href='https://github.com/' role="button" style="font-size: 24px;"><i class="fab fa-github"></i> Code</a></span>
+						<span><a class="btn btn-outline-primary" href='https://anonymous.4open.science/r/CAFA/' role="button" style="font-size: 24px;"><i class="fab fa-github"></i> Code</a></span>
 					</div>
 				</div>
 			</div>
@@ -113,12 +113,15 @@ By incorporating text, users can refine semantic details and introduce creative 
 Experiments show that besides its superior quality in terms of semantic alignment and audio-visual synchronization our proposed model enable high textual controllability which demonstrated in subjective and objective evaluations.
 
 		</p>
+		<hr id="Video">
 		<!-- end abstract and teaser image-->
+		<p align="center">
+			<iframe width="560" height="315" src="./resources/video/Original_Video.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>		</p>
 
 		<!-- video of a talk about your paper (youtube embedding) -->
 		<!-- <center><h1>Talk</h1></center>
 		<p align="center">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/ly36kn0ug4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>		</p> -->
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/ly36kn0ug4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>		</p>
 
 		<!-- Images -->
 		<hr id="TVTA">
@@ -143,24 +146,8 @@ Experiments show that besides its superior quality in terms of semantic alignmen
 					<th style="text-align: center;">GT</th>
 					<th style="text-align: center;">CAFA (ours)</th>
 					<th style="text-align: center;">MMAudio</th>
-					<th style="text-align: center;">Foley</th>
+					<th style="text-align: center;">FoleyCrafter</th>
 					<th style="text-align: center;">REWAS</th>
-				</tr>
-			
-				<tr>
-					<td>
-						<div class="content-container">
-							<div class="button-container">
-								<button class="btn btn-outline-primary" onclick="changeVideos_drum('_playing_drum_kit')">Playing drum kit</button>
-								<button class="btn btn-outline-primary" onclick="changeVideos_drum('_typing_on_typewriter')">Typing on typewriter</button>
-							</div>
-						</div>
-					</td>
-					<td><video id="videoGT_drum" controls><source src="./resources/video/Table_1/drum/GT_playing_drum_kit.mp4" type="video/mp4"></video></td>
-					<td><video id="video1_drum" controls><source src="./resources/video/Table_1/drum/our_playing_drum_kit.mp4" type="video/mp4"></video></td>
-					<td><video id="video2_drum" controls><source src="./resources/video/Table_1/drum/mmaudio_playing_drum_kit.mp4" type="video/mp4"></video></td>
-					<td><video id="video3_drum" controls><source src="./resources/video/Table_1/drum/foley_crafter_playing_drum_kit.mp4" type="video/mp4"></video></td>
-					<td><video id="video4_drum" controls><source src="./resources/video/Table_1/drum/rewas_playing_drum_kit.mp4" type="video/mp4"></video></td>
 				</tr>
 			
 				<tr>
@@ -178,6 +165,24 @@ Experiments show that besides its superior quality in terms of semantic alignmen
 					<td><video id="video3_keyboard" controls><source src="./resources/video/Table_1/keyboard/foley_crafter__typing_on_typewriter.mp4" type="video/mp4"></video></td>
 					<td><video id="video4_keyboard" controls><source src="./resources/video/Table_1/keyboard/rewas__typing_on_typewriter.mp4" type="video/mp4"></video></td>
 				</tr>
+				
+				<tr>
+					<td>
+						<div class="content-container">
+							<div class="button-container">
+								<button class="btn btn-outline-primary" onclick="changeVideos_drum('_playing_drum_kit')">Playing drum kit</button>
+								<button class="btn btn-outline-primary" onclick="changeVideos_drum('_typing_on_typewriter')">Typing on typewriter</button>
+							</div>
+						</div>
+					</td>
+					<td><video id="videoGT_drum" controls><source src="./resources/video/Table_1/drum/GT_playing_drum_kit.mp4" type="video/mp4"></video></td>
+					<td><video id="video1_drum" controls><source src="./resources/video/Table_1/drum/our_playing_drum_kit.mp4" type="video/mp4"></video></td>
+					<td><video id="video2_drum" controls><source src="./resources/video/Table_1/drum/mmaudio_playing_drum_kit.mp4" type="video/mp4"></video></td>
+					<td><video id="video3_drum" controls><source src="./resources/video/Table_1/drum/foley_crafter_playing_drum_kit.mp4" type="video/mp4"></video></td>
+					<td><video id="video4_drum" controls><source src="./resources/video/Table_1/drum/rewas_playing_drum_kit.mp4" type="video/mp4"></video></td>
+				</tr>
+			
+				
 			
 				<tr>
 					<td>
@@ -405,12 +410,12 @@ Experiments show that besides its superior quality in terms of semantic alignmen
 		</table>
 		<!-- end bibtex citation -->
 
-		<div class="container">
-			<p class="text-left">
+		<!-- <div class="container"> -->
+			<!-- <p class="text-left">
 				More results, comparison to other methods and further discussion about our model can be found in the <a href="resources/supp.pdf" target="_blank" rel="noopener noreferrer">supplementary material</a>.<br>
 				Our official code implementation can be found in the official <a href="https://github.com" target="_blank" rel="noopener noreferrer">github repository</a>.
-			</p>
-		</div>
+			</p> -->
+		<!-- </div> -->
 		
 
 		<center>
@@ -418,22 +423,22 @@ Experiments show that besides its superior quality in terms of semantic alignmen
 				<tbody>
 					<tr>
 						<td width="50%" style="text-align: center;">
-							<a target="_blank" rel="noopener noreferrer" href="resources/supp.pdf" style="color:black !important;">
-								<img alt="" id="supp" class="round" width="100%" style="max-width:150px" border="1px solid" src="./resources/supp.png"/>
+							<a target="_blank" rel="noopener noreferrer" href="resources/paper.pdf" style="color:black !important;">
+								<img alt="" id="supp" class="round" width="100%" style="max-width:150px" border="1px solid" src="./resources/paper.png"/>
 							</a>
 						</td>
 						<td width="50%" style="text-align: center;">
-							<a href="https://github.com" target="_blank" rel="noopener noreferrer">
+							<a href="https://anonymous.4open.science/r/CAFA/" target="_blank" rel="noopener noreferrer">
 								<img alt="" id="github_logo" class="round" width="100%" style="max-width:150px" src="./resources/github_logo.png"/>
 							</a>
 						</td>
 					</tr>
 					<tr>
 						<td style="font-size:14pt; text-align: center;"
-							<span><a class="btn btn-outline-primary" href='resources/supp.pdf' role="button" style="font-size: 16px;">Supplementary</a></span>
+							<span><a class="btn btn-outline-primary" href='resources/paper.pdf' role="button" style="font-size: 16px;">Supplementary</a></span>
 						</td>
 						<td style="font-size:14pt; text-align: center;">
-							<span><a class="btn btn-outline-primary" href='https://github.com' role="button" style="font-size: 16px;">Code</a></span>
+							<span><a class="btn btn-outline-primary" href='https://anonymous.4open.science/r/CAFA/' role="button" style="font-size: 16px;">Code</a></span>
 						</td>
 					</tr>
 				</tbody>
